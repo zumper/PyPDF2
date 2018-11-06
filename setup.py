@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+import setuptools
 from distutils.core import setup
 import re
 
@@ -30,7 +31,7 @@ else:
     raise RuntimeError("Unable to find version string in %s." % (VERSIONFILE))
 
 setup(
-        name="PyPDF2",
+        name="pypdf2",
         version=verstr,
         description="PDF toolkit",
         long_description=long_description,
